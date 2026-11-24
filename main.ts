@@ -4,7 +4,7 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// The roast: my agent turns a one-line task into a plan, questions, and an apology.
+// The roast: one small ask, and my agent answers with a plan, questions, and an apology.
 const OUTPUT_DIR  =  process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
 const ENTRY =
